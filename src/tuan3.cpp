@@ -14,11 +14,11 @@ using namespace std;
 class taikhoan
 {
 	public:
-		char tentaikhoandangki[20], tentaikhoandangnhap[20];
-		char hoten[20], ngaysinh[20], gioitinh[3], diachi[30];
-		int flagdangnhap = 0;
-		void dangnhap();
-		void dangki();
+	    char tentaikhoandangki[20], tentaikhoandangnhap[20];
+	    char hoten[20], ngaysinh[20], gioitinh[3], diachi[30];
+	    int flagdangnhap = 0;
+	    void dangnhap();
+	    void dangki();
 	    void kiemtradangnhap();
 	    void dangxuat();
 	    int kiemtratontai(char tentaikhoandangnhap[20]);
@@ -58,7 +58,7 @@ a:	cout<<"Ten tai khoan:\n";
 	cin>> matkhaudangki;
 	cout<<"Ho va ten: \n";
 	fflush(stdin);
-    cin>>hoten;
+	cin>>hoten;
 	cout<<"Ngay sinh: \n";
 	fflush(stdin);
 	cin>>ngaysinh;
@@ -252,7 +252,7 @@ int tinnhan::kiemtratontai(char taikhoankiemtra[20])
 
 class banbe
 {
-	public:  	void themban(char tentaikhoandangnhap[20]);
+	public: 	void themban(char tentaikhoandangnhap[20]);
 				void indanhsachban(char tentaikhoandangnhap[20]);
 				void block(char tentaikhoandangnhap[20]);
 				time_t thoigian = time(0);
